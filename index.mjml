@@ -1,0 +1,169 @@
+<mjml>
+	<mj-head>
+		<mj-title>Apple Letter</mj-title>
+		<mj-preview>Apple Letter</mj-preview>
+		<mj-style>
+
+
+            .Colegi{
+                font-family: Arial;
+                font-size: 19.2px;
+                line-height: 1.2;
+                font-weight: 400;
+                color: #000000;
+                
+                
+            }
+            .title{
+                font-family: Arial;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #000000;
+                
+                
+            }
+		    .N {
+                
+                 padding-left: 0px;
+                 
+                 
+                }    
+            
+            strong{
+                font-family: Arial;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 700;
+                color: #000000;
+                
+            }
+
+			.N-text {
+				font-family: Arial;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 400;
+                font-style: italic;
+                color: #000000;
+                width: 333px;
+			}
+            
+            .Contur{
+                border-left:  1px solid #ffffff;
+                border-right: 1px solid #ffffff;
+            }
+
+            .spam{
+                font-family: Arial;
+                font-size: 11px;
+                line-height: 14px;
+                font-weight: 400;
+                weight: 454px;
+            }
+
+          @media (max-width: 300px) {
+				.N-text{
+					width: 200px !important;
+				}
+               
+
+                .title{
+                    width: 200px !important;
+                }
+			}
+
+		</mj-style>
+	</mj-head>
+ <mj-body width="600px" margin="0" css-class="Contur">
+		
+        <mj-section border-bottom="6px solid #ffd487"  background-color="#313131" padding="0">
+			<mj-column>
+				<mj-image align="center" padding="0px" src="logo.png" />
+			</mj-column>
+		</mj-section>
+
+        <mj-wrapper css-class="Hello"  background-color="#ffffff" padding="0" >
+			<mj-section  padding="0">
+				<mj-column>
+					<mj-text css-class="hello" padding="32px 0px 0px 0px" align="center">
+						<div class="Colegi">Уважаемые коллеги!</div>
+					</mj-text>
+            	</mj-column>	
+            </mj-section>      
+                
+                <mj-section   padding="0px 77px 29px 79px">
+                 <mj-column width="457px" > 
+					<mj-text  css-class="title"  padding="22px 0px 0px 0px" color="#000000" font-family="Arial" line-height="24px" font-size="18px" font-weight="400" align="center" >
+						На портале Клуба Заводчиков <strong>PRO PLAN®</strong> доступны новые статьи от Надежды Румянцевой.
+					</mj-text>
+                </mj-column>
+                </mj-section>
+
+        </mj-wrapper>
+				
+      
+        <mj-wrapper background-color="#ffffff" padding="0px"  >
+			<mj-section padding="0px 70px 0px 0px"border-bottom="6px solid #ffd487" >
+				<mj-column width="140px" >
+					<mj-image css-class="linc" align="left" width="141px"  padding="0px"  src="Nade.png" />
+				</mj-column>
+
+				<mj-column>
+					<mj-text  >
+						<strong>Надежда Румянцева<strong>
+                        <div  class="N-text">глава породного комитета шотландской группы в TICA, судья международной категории, грумер, заводчик Американской короткошёрстной и Шотландской пород.</div>
+                    </mj-text>
+					<mj-image css-class="linc" width="198px" padding-top="30px" padding-bottom="38px"   align="center" src="link1.png" href=" "/>
+				</mj-column>
+			</mj-section>
+        </mj-wrapper>
+
+       <mj-section padding="40px 0px 0px 0px" background-color="#ffffff" >
+				<mj-column padding="0px 52px 0px 50px" width="497px" >
+					<mj-image  align="center" padding="0px"  src="cat1.png" />
+				</mj-column>
+
+				<mj-column padding="8px 0px 0px 0px">
+					<mj-image width= "112px"  align="center" src="read.png" href=" "/>
+				</mj-column>
+			</mj-section>
+
+            <mj-section padding="36px 0px 0px 0px" background-color="#ffffff" >
+				<mj-column padding="0px 52px 0px 50px" width="497px" >
+					<mj-image  align="center" padding="0px"  src="cat2.png" />
+				</mj-column>
+
+				<mj-column padding="8px 0px 0px 0px">
+					<mj-image width= "112px"  align="center" src="read.png" href=" "/>
+				</mj-column>
+			</mj-section>
+
+            <mj-section padding="36px 0px 0px 0px" background-color="#ffffff" border-bottom="5px solid #ffd487" >
+				<mj-column padding="0px 52px 0px 50px" width="497px" >
+					<mj-image align="center" padding="0px"  src="cat3.png" />
+				</mj-column>
+
+				<mj-column padding="8px 0px 34px 0px">
+					<mj-image width= "112px"  align="center" src="read.png" href=" "/>
+				</mj-column>
+			</mj-section>
+
+            <mj-section  padding="0" background-color="#f4f4f4">
+				<mj-column>
+					<mj-text padding="25px 73px 20px 77px" align="center">
+						<div class="spam" align="center" weight="454px">Вы получили данное информационное сообщение, потому что этот e-mail был указан при подписании соглашения с ООО «Нестле Россия». Если вы не подписывали данное соглашение, пожалуйста, игнорируйте данное письмо. Если в дальнейшем вы не хотите получать от нас писем, вы всегда можете <u>отписаться</u> от рассылки</div>
+					</mj-text>
+            	</mj-column>	
+            </mj-section> 
+
+            <mj-section padding="0px">
+				<mj-column padding="0px">
+					<mj-image width= "641px" align="center" padding="0px" src="Vector.png" href=" "/>
+				</mj-column>
+			</mj-section>
+
+    </mj-body>
+</mjml>
+
+   
